@@ -7,7 +7,7 @@ library(dplyr)
 library(readr)
 library(janitor)
 
-#Importing 12 Months of Trip Data
+# Importing 12 Months of Trip Data
 apr2020<- read_csv("202004-divvy-tripdata.csv")
 may2020<- read_csv("202005-divvy-tripdata.csv")
 jun2020<- read_csv("202006-divvy-tripdata.csv")
